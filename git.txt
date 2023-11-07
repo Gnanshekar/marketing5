@@ -1,0 +1,23 @@
+
+mvn archetype:generate -DgroupId=in.javahome \
+	-DartifactId=doctor-online \
+	-DarchetypeArtifactId=maven-archetype-webapp \
+	-DinteractiveMode=false 
+
+https://github.com/javahometech/online-banking/blob/main/pom.xml
+
+https://maven.apache.org/archetypes/maven-archetype-webapp/
+
+https://mkyong.com/maven/how-to-create-a-web-application-project-with-maven/
+
+
+
+vi pom.xml
+
+mvn package
+
+git status
+
+git commit --amend
+
+git commit --amend --author="Gnanashekar <shekark509@gmail.com> --no-edit"
